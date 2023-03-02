@@ -5,6 +5,9 @@ body{
     padding:0px;
     margin: 0px;
 }
+small{
+    font-size: 10px;
+}
 .container{
     background-color: white;
     border: 2px solid grey;
@@ -13,6 +16,7 @@ body{
     padding: 5px;
     margin-left: 30%;
     margin-top: 2%;
+    box-shadow: 1px 1px 1px 1px #888888;
 }
 h2{
     color: #b7302e;
@@ -37,10 +41,11 @@ tr{
 th{
     width: 30%;
     text-align: start;
-}
-
-th{
     vertical-align: top;
+    color: #666663;
+}
+label{
+    color: #666663;
 }
 
 .inputSet{
