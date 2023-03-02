@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+*{
+    padding:0px;
+    margin: 0px;
+}
+.container{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+h2{
+    color: #b7302e;
+}
+
+.personalContainer{
+    width: inherit;
+}
+input,select,option{
+    height: 20px;
+}
+
+table{
+    width: 100%;
+
+}
+
+tr{
+    width:100% ;
+    margin-bottom: 5px;
+}
+th{
+    width: 30%;
+    text-align: start;
+}
+
+th{
+    vertical-align: top;
+}
+
+.inputSet{
+    float: right;
+    width: 60%;
+   
+}
+.labelSet{
+    width: 35%;
+    float: left;
+}
+.empDetails{
+    display: flex;
+}
+ .empDetails ,label{
+   
+    font-weight: bold;
+
+ }
+
+ .empDetails label{
+    width: 40%;
+    margin-bottom: 5%;
+ }
+
+
+button{
+    width: 100px;
+    color: white;
+    background-color: #650205;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.applyButton{
+    margin: 20px;
+    text-align: center;
+}

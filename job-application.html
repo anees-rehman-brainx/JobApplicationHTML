@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Applivation</title>
+</head>
+<body>
+    <div class="container">
+        <div style="height: 20px; background-color: #650205;"></div>
+        <!-- heading -->
+        <div>
+            <h1 style="text-align: center;"><b>Job Application</b> </h1>
+        </div>
+
+        <!-- Personal Information -->
+        <div class="personalInfoContainer">
+            <h2>Personal Information</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td>
+                        <input type="text" style="width: 45%;">
+                        <input type="text" style="width: 45%;">
+                        <section style="display: flex;justify-content:start;">
+                            <small>First Name</small>
+                            <small style="margin-left: 33%;">Last Name</small>
+                        </section>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Email</th>
+                    <td colspan="4">
+                        <input type="email" placeholder="user@exapmle.com" style="width: 70%; margin-bottom: 10px;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Education</th>
+                    <td colspan="4">
+                        <select name="education" id="" style="width: 70%;border: 1px solid black;margin-bottom: 10px;">
+                            <Option>Please Choose</Option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Resume</th>
+                    <td colspan="4">
+                        <input type="file" style="margin-bottom: 10px; border: 1px solid black;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th rowspan="4" style="vertical-align: text-top;">Address</th>
+                    <td colspan="4" style="display: flex; flex-direction: column;">
+                        <input type="text" width="100%">
+                        <small style="text-align: center;">Address 1</small>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td colspan="4" style="display: flex; flex-direction: column;">
+                        <input type="text">
+                        <small style="text-align: center;">Address 1</small>
+                    </td>
+                </tr>
+
+                <tr>
+                  
+                    <td colspan="4" style="display: flex; flex-direction: column;">
+                        <select name="country" id="">
+                            <option value="">Select a Country</option>
+                        </select>
+                        <small style="text-align: center;">country</small>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="4">
+                        <input type="text" style="width: 50%;">
+                        <input type="text" style="width: 10%;">
+                        <input type="text" style="width: 30%;">
+                        <section style="display: flex; justify-content: space-evenly;">
+                            <small>City</small>
+                            <small style="margin-left: 70px;">State</small>
+                            <small>Zip Code</small>
+                        </section>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Phone Number</th>
+                    <td style="display: flex;" colspan="4">
+                        <input type="text" style="width: 20%;margin-right: 2%;">
+                        <input type="text" style="width: 78%;">
+                    </td>
+                </tr>
+            </table>
+
+            <b style="margin-top: 5px;">What are you hobbies?</b>
+            <div>
+                <input type="text" style="width: 100%;">
+            </div>
+
+        </div>
+
+        <!-- Emplyee Details -->
+        <div style="margin-top: 5px;" >
+            <h2 style="width: 100%;margin-bottom: 5px;">Previous/Current Employee Details</h2>
+
+            <div class="empDetails" >
+                <label for="companyName">Company Name</label>
+                <input type="text" class="inputSet">
+            </div>
+            <div class="empDetails">
+                <label for="companyName">Job Title</label>
+                <input type="text" class="inputSet">
+            </div>
+            <div class="empDetails">
+                <label for="">How long were you here?</label></label>
+                <input type="text" class="inputSet">
+            </div>
+       
+        </div>
+       
+        <!-- Reference 1 -->
+        <div class="reference1" style="margin-top: 5px;">
+            <h2 style="margin-bottom: 5px;">Reference#1</h2>
+            <div class="empDetails">
+                <label for="name1">Name</label>
+                <input type="text" class="inputSet">
+            </div>
+            <div class="empDetails">
+                <label for="phone1">Phone</label>
+                <input type="text" class="inputSet">
+            </div>
+        </div>
+
+        <!-- Reference 2 -->
+        <div class="reference2">
+            <h2 style="margin-bottom: 5px;">Reference#2</h2>
+            <div class="empDetails">
+                <label for="name2">Name</label>
+                <input type="text" class="inputSet">
+            </div>
+            <div>
+                <label for="phone2">Phone</label>
+                <input type="text" class="inputSet">
+            </div>
+        </div>
+
+        <div class="applyButton">
+            <button>Apply</button>
+        </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
